@@ -9,7 +9,7 @@
   <body>
     <!-- Main Header -->
     <section class="container mx-auto">
-        <nav class="navbar navbar-expand-lg bg-light p-4">
+        <nav class="navbar navbar-expand-lg bg-light p-4 ps-lg-0">
             <div class="container-fluid">
               <a class="navbar-brand fw-bolder fs-3" href="#">BD Tech Education</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,8 +53,8 @@
               <div class="carousel-item active">
                 <img src="images/cover/cover-1.png" class="d-block w-100" alt="..." style="filter: brightness(60%);">
                 <div class="carousel-caption d-md-block  d-flex flex-column justify-content-center align-items-center pb-lg-5 mb-lg-5">
-                  <h1 class="display-1 fw-bold">Get Started DigitalLearning</h1>
-                  <p class="fs-5">It is a long established fact that a reader will be distracted by the readable
+                  <h1 class="display-2 fw-bold">Get Started Digital Learning</h1>
+                  <p class="fs-4">It is a long established fact that a reader will be distracted by the readable
                     content of a page when looking at its layout.</p>
                     <button type="button" class="btn btn-primary py-2 px-4 fw-bold fs-5" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem --bs-btn-font-size: .75rem;">Get Started</button>
                 </div>
@@ -84,7 +84,7 @@
         <section class="mx-auto">
            <!-- courses caption -->
             <div>
-                <div class="mt-xxl-5 text-center">
+                <div class="mt-5 text-center">
                     <h1 class="fw-bold display-4">Discover Our Popular <br> Courses</h1>
                     <p class="fs-4 w-75 m-auto mt-3">It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout.</p>
                 </div>
@@ -174,6 +174,51 @@
             <button type="button" class="btn btn-primary py-2 px-4 fs-4 fw-semibold rounded-3">See More Courses</button>
            </div>
         </section>
+
+        <!-- Ready to join part -->
+        <div>
+            <div class="row bg-primary text-white p-5 pb-4 rounded-3 mt-5">
+                <div class="col-lg-6 px-4 text-lg-start text-md-center">
+                    <h1>Ready to join?</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="col-lg-6 d-flex align-items-lg-center justify-content-lg-end justify-content-md-center">
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-dark" id="exampleModalToggleLabel">Your Goal</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-dark">
+                              I'll help you for that.
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-dark" id="exampleModalToggleLabel2">Your Plan</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-dark">
+                              I'll Show you this plan roadmap.
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="btn btn-light py-3 px-5 fw-bold text-primary fs-5" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
