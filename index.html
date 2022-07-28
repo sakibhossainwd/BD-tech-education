@@ -12,6 +12,25 @@
           .hidden-mobile {
             display: none;
           }
+          .mobile-header{
+            font-size: 25px;
+          }
+          .slider-pre{
+            font-size: 8px;
+          }
+          .slider-button{
+            font-size: 10px;
+            padding: 4px 6px;
+          }
+          .pre{
+            font-size: 12px;
+          }
+          .redy{
+            text-align: center;
+          }
+          .redy-button{
+            margin-left: 60px;
+          }
         }
         @media (max-width: 992px) {
           .hidden-mobile {
@@ -67,10 +86,9 @@
               <div class="carousel-item active">
                 <img src="images/cover/cover-1.png" class="d-block w-100" alt="..." style="filter: brightness(60%);">
                 <div class="carousel-caption d-md-block  d-flex flex-column justify-content-center align-items-center pb-lg-5 mb-lg-5">
-                  <h1 class="display-2 fw-bold">Get Started Digital Learning</h1>
-                  <p class="fs-4">It is a long established fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.</p>
-                    <button type="button" class="btn btn-primary py-2 px-4 fw-bold fs-5" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem --bs-btn-font-size: .75rem;">Get Started</button>
+                  <h1 class="display-1 fw-bold mobile-header">Get Started Digital Learning</h1>
+                  <p class="h4 slider-pre text-white text-opacity-75">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <button type="button" class="btn btn-primary py-lg-2 px-lg-4 py-md-2 px-md-4 fw-bold fs-lg-5 slider-button" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem --bs-btn-font-size: .75rem;">Get Started</button>
                 </div>
               </div>
               <div class="carousel-item">
@@ -100,18 +118,18 @@
             <div>
                 <div class="mt-5 text-center">
                     <h1 class="fw-bold display-4">Discover Our Popular <br> Courses</h1>
-                    <p class="fs-4  m-auto mt-3">It is a long established fact that a reader will be distracted by the <br> readablecontent of a page when looking at its layout.</p>
+                    <p class="h5  m-auto mt-3 pre">It is a long established fact that a reader will be distracted by the <br> readablecontent of a page when looking at its layout.</p>
                 </div>
             </div>
         <!-- courses tap part     -->
         <div class="row">
             <!-- course-01 -->
-            <div class="col-lg-6 col-md-12 mt-5">
+            <div class="col-lg-6 col-sm-12 mt-5">
                 <div class="d-flex border rounded-2 align-items-center gap-1">
-                    <div class="">
+                    <div class="col-sm-">
                         <img src="images/course/course-1.png" alt="">
                     </div>
-                    <div class="p-2 ">
+                    <div class="p-2 col-sm-">
                         <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
                         <p class="fs-5">Some quick example text to build on the card titleand make up the bulk of the card.</p>
                         <h4 class="fw-bold text-primary">Price : 20$</h4>
@@ -134,7 +152,7 @@
             <!-- course-03 -->
             <div class="col-lg-6 col-md-12 mt-4">
                 <div class="d-flex border rounded-2 align-items-center gap-1">
-                    <div>
+                    <div class="">
                         <img src="images/course/course-3.png" alt="">
                     </div>
                     <div class="p-2">
@@ -191,10 +209,10 @@
 
     <!-- Ready to join part -->
         <div>
-            <div class="row bg-primary text-white p-5 pb-4 rounded-3 mt-5">
+            <div class="row bg-primary text-white p-5 pb-4 rounded-3 mt-5 redy">
                 <div class="col-lg-6 px-4 text-lg-start text-md-center">
                     <h1>Ready to join?</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p class="pre">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
                 <div class="col-lg-6 d-flex align-items-lg-center justify-content-lg-end justify-content-md-center">
                     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -229,7 +247,9 @@
                           </div>
                         </div>
                       </div>
-                      <a class="btn btn-light py-3 px-5 fw-bold text-primary fs-5" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
+                      <div class="redy-button">
+                        <a class="btn btn-light py-lg-3 px-lg-5 py-md-3 px-md-5 py-sm-1 px-sm-3 fw-bold text-primary fs-5 d-flex justify-content-center" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
+                      </div>
                 </div>
             </div>
         </div>
@@ -239,7 +259,7 @@
             <div>
                 <div class="mt-5 text-center">
                     <h1 class="fw-bold display-4">Frequently Asked Questions</h1>
-                    <p class="fs-5 m-auto mt-3">It is a long established fact that a reader will be distracted by the <br> readablecontent of a page when looking at its layout.</p>
+                    <p class="h5 m-auto mt-3 pre">It is a long established fact that a reader will be distracted by the <br> readablecontent of a page when looking at its layout.</p>
                 </div>
             </div>
         <!--Accodion-->
