@@ -3,8 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/2e30e07046.js" crossorigin="anonymous"></script>
     <title>BD Tech Education</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b28dea5047.js" crossorigin="anonymous"></script>
+    <style>
+        @media (max-width: 767px) {
+          .hidden-mobile {
+            display: none;
+          }
+        }
+        @media (max-width: 992px) {
+          .hidden-mobile {
+            display: none;
+          }
+        }
+      </style>
   </head>
   <body>
     <!-- Main Header -->
@@ -220,7 +234,7 @@
             </div>
         </div>
     <!-- Frequently Asked Question part -->
-    <section>
+     <section>
         <!-- caption -->
             <div>
                 <div class="mt-5 text-center">
@@ -232,7 +246,7 @@
         <div class="accordion mt-5 w-75 mx-auto" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <button class="accordion-button fw-bold fs-4 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                     What the defference between flex and grid?
                 </button>
               </h2>
@@ -244,7 +258,7 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button class="accordion-button collapsed fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <button class="accordion-button collapsed fw-bold fs-4 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                     what the difference between bootstrap and tailwind
                 </button>
               </h2>
@@ -256,7 +270,7 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                <button class="accordion-button collapsed fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <button class="accordion-button collapsed fw-bold fs-4 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                     what is the css box model?
                 </button>
               </h2>
@@ -268,7 +282,7 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button class="accordion-button collapsed fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  <button class="accordion-button collapsed fw-bold fs-4 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                     what is semantic tag?
                   </button>
                 </h2>
@@ -279,8 +293,55 @@
                 </div>
               </div>
           </div>
+     </section>
+    <!-- Company logo part -->
+    <section class="hidden-mobile">
+        <div>
+            <div class="mt-5 text-center">
+                <h1 class="fw-bold display-4">Trusted by over 800+ companies</h1>
+            </div>
+        </div>
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="images/company/company-1.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/company/company-2.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/company/company-3.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/company/company-4.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/company/company-5.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/company/company-6.png" alt="">
+                </div>
+            </div>
+        </div>
     </section>
     </main>
+    <!-- Footer part -->
+    <footer>
+         <div class="bg-black p-5 mt-5">
+            <div class="mt-5 text-center">
+                <h1 class="fw-bold display-4 text-light">BD Tech Education</h1>
+                <p class="fs-5 w-50 m-auto mt-3 text-light">Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman
+                  <br>  Privacy Ploicy | Terms of use</p>
+            </div>
+            <div>
+                <div class="social-link">
+                    <div class="social"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="social"><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+                </div>
+            </div>
+         </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
